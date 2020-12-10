@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f612a890b6d4ccb8c62a53ab3d808e, type: 3}
+  m_Name: Item AR
+  m_EditorClassIdentifier: 
+  itemName: 
+  descriptoin: 
+  thumbnail: {fileID: 0}
+  theModel: {fileID: 0}
+  socialSustainabilityRank: 
+  socialSustainabilityExplain: []
+  materialSustainabilityRank: 
+  materialSustainabilityExplain: []
+  donationRank: 
+  donationExplain: []
