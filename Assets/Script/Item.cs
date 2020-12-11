@@ -6,36 +6,36 @@ public class Item : ScriptableObject
 
 {
     //the name of the item
-    [SerializeField] string itemName;
+    public string itemName;
 
     //the details of the item such as the name of the store, material composition ....
-    [SerializeField] string descriptoin;
+    public string descriptoin;
 
     //Icone Picture of the item
-    [SerializeField] Sprite thumbnail;
+    public Sprite thumbnail;
 
     //3d Model of the item (having changes as children
-    [SerializeField] GameObject theModel;
+    public GameObject theModel;
 
     //Social sustainability rank Array in life phases
-    [SerializeField] int[] socialSustainabilityRank;
+    public int[] socialSustainabilityRank;
 
     //Social sustainability explanation string Array in life phases
-    [SerializeField] string[] socialSustainabilityExplain;
+    public string[] socialSustainabilityExplain;
 
     //Material sustainability rank Array in life phases
-    [SerializeField] int[] materialSustainabilityRank;
+    public int[] materialSustainabilityRank;
 
 
     //Material sustainability explanation string Array in life phases
-    [SerializeField] string[] materialSustainabilityExplain;
+    public string[] materialSustainabilityExplain;
 
     //Donation rank Array in life phases
-    [SerializeField] int[] donationRank;
+    public int[] donationRank;
 
 
     //Donation explanation string Array in life phases
-    [SerializeField] string[] donationExplain;
+   public string[] donationExplain;
 
 
 
