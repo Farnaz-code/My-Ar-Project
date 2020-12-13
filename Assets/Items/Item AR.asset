@@ -15,7 +15,8 @@ MonoBehaviour:
   itemName: Saraphone Abi
   descriptoin: some descriptopnm goes jhere
   thumbnail: {fileID: 21300000, guid: b8aaa707027cc4f79af3439c5dbc9652, type: 3}
-  theModel: {fileID: 0}
+  theModel: {fileID: 1968424462843879608, guid: 3728ccf316893408cafba2846fd76e13,
+    type: 3}
   socialSustainabilityRank: 050000000500000004000000040000000400000004000000
   socialSustainabilityExplain:
   - although you bought cheap, not good people suffer to make

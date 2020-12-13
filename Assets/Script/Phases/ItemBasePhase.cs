@@ -3,5 +3,6 @@ using UnityEngine;
 
 public abstract class ItemBasePhase
 {
-    public abstract void Update(Manager sceneManager);
+    public abstract void EnteringPhase(Manager sceneManager);
+  
 }
