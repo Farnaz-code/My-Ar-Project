@@ -866,10 +866,10 @@ RectTransform:
   m_Father: {fileID: 1867704781}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -246.9, y: 2.8}
-  m_SizeDelta: {x: 304.98846, y: 332.65295}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 203.1, y: 2.8}
+  m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &383886684
 MonoBehaviour:
@@ -2399,6 +2399,7 @@ MonoBehaviour:
   socialCondition: {fileID: 1324519997}
   materialConsition: {fileID: 1467228767}
   donationCondition: {fileID: 1120182684}
+  itemIcone: {fileID: 383886684}
   gameobjectToRotate: {fileID: 1165102681}
 --- !u!114 &1073461050
 MonoBehaviour:
