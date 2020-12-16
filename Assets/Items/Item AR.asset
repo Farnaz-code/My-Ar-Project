@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f612a890b6d4ccb8c62a53ab3d808e, type: 3}
   m_Name: Item AR
   m_EditorClassIdentifier: 
-  itemName: Saraphone Abi
-  descriptoin: some descriptopnm goes jhere
+  itemName: Jacquard Knee-Length Shift Dress, ANNE WEYBURN
+  descriptoin: "100% organic cotton, 26,99 \u20AC, Machine washable at 30\xB0C on
+    a delicate cycle"
   thumbnail: {fileID: 21300000, guid: 269ce1ef7156c427491c8472c03b6a67, type: 3}
   theModel: {fileID: 1968424462843879608, guid: 3728ccf316893408cafba2846fd76e13,
     type: 3}
@@ -56,9 +57,7 @@ MonoBehaviour:
     organic cotton farming does not allow the use of toxic chemicals or GMOs (genetically
     modified organisms). Instead, it combines tradition, innovation and science to
     benefit the shared environment and promote a good quality of life for all involved.
-    No toxic chemicals are used in the growing of organic cotton. It doesn\u2019t
-    damage the soil, has less impact on the air, and uses 88% less water and 62%
-    less energy."
+    It doesn\u2019t damage the soil, and uses 88% less water and 62% less energy."
   - "Production of the organic cotton sustains the health of soils, ecosystems and
     people by using natural processes rather than artificial inputs. Importantly
     organic cotton farming does not allow the use of toxic chemicals or GMOs (genetically
