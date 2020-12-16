@@ -5,6 +5,18 @@ using System;
 
 public class Manager : MonoBehaviour
 {
+    private static Manager instance;
+    public static Manager Instance
+    {
+        get
+        { if (instance == null)
+                Debug.LogError("Assign the Manager");
+            return instance;
+        }
+    }
+
+
+
     public Item arItem;
 
     public ItemBasePhase currentPhase ;
@@ -33,6 +45,10 @@ public class Manager : MonoBehaviour
     public float currentLifePhase;
 
 
+    private void Awake()
+    {
+       instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -50,10 +66,6 @@ public class Manager : MonoBehaviour
 
         MovingBetweenPhases();
 
-       //currentPhase.Update(this);
-
-        Debug.Log(currenetSocialSustainabilityExplain);
-       
         
     }
 
@@ -104,7 +116,7 @@ public class Manager : MonoBehaviour
 
     }
 
-
+    //-----------------------------------------------------
     //inputs:
 
     //for getting info from life phase slider
